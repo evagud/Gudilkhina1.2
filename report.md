@@ -8,6 +8,8 @@
 
 В результате тестирования выявлены следующие дефекты:
 * [Fail при вводе 19 разрядного валидного номера карт](https://github.com/evagud/Gudilkhina1.2/issues/1)
+* [Fail при вводе 13 и 15 разрядного валидного номера карт](https://github.com/evagud/Gudilkhina1.2/issues/2)
+* [Fail при вводе 17 и 18 разрядного валидного номера карт](https://github.com/evagud/Gudilkhina1.2/issues/3)
 
 ## Описание процесса тестирования
 
@@ -16,16 +18,8 @@
 * [Инструкция по установке OpenJDK11](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md)
 
 
-В качестве тестовых данных использовались данные из [**сервиса для генерации валидных номеров карт**](https://www.freeformatter.com/credit-card-number-generator-validator.html)
+В качестве тестовых данных использовались данные из [**сервиса для генерации валидных номеров карт**](https://www.freeformatter.com/credit-card-number-generator-validator.html) и [**еще одного сервиса для генерации номеров карт**](https://cartoved.ru/common/generator-kreditnyh-kart.html)
 
-* 6011680936331099328 Result is OK
-* 3539893199429907912 Result is OK
-* 6396671193837942125 Result is OK
-* 4556454348054114 Result is OK
-* 4024007166965623 Result is OK
-* 5283602588735662 Result is OK
-* 5130869713260768 Result is OK
-* 2720998159367887 Result is OK
 
 Тестирование производилось в следующем окружении:
 *  ОС Windows 10 х64,  версии 1903
